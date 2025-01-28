@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .hero {
+            background: url(/static/background.jpg) no-repeat center center/cover;
+            height: 400px;
+            position: relative;
+            color: black;
+            text-align: center;
+        }
+        .hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: -100px;
+        }
+        .developer-info {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .developer {
+            margin: 20px;
+            text-align: center;
+            max-width: 400px;
+        }
+        .developer img {
+            width: 150px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .get-started {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .get-started:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <h1 style="margin: 0;">Welcome to MRC</h1>
+        <a href="/signin" class="get-started">Get Started</a>
+    </header>
+    
+
+<div class="hero">
+    <h1>Your Health, Our Priority</h1>
+</div>
+
+<div class="container">
+    <div class="content">
+        <h2>About Us</h2><br>
+        <p>
+            Discover a smarter way to understand your health with MRC, a platform designed to analyze your symptoms and provide tailored suggestions for medications, diets, workouts, precautions, and insights into potential conditions.
+            Please note that this is a conceptual demonstration of computer science principles and is not intended as a substitute for professional medical advice.
+            Always consult a qualified healthcare provider before making any decisions regarding medications or treatments. 
+            We strongly suggest u to talk to doctor or other healthcare person before using any drugs.
+            Your health and safety are our utmost priority.
+            Explore responsibly and learn more about the fascinating intersection of technology and healthcare!
+        </p>
+
+        <a href="/signin" class="get-started">Get Started</a>
+        
+        <h2>Meet the Developers</h2>
+        <div class="developer-info">
+            <div class="developer">
+                <img src="/static/Krish K Shrestha.jpg" alt="Developer 1 Image">
+                <h3>Krish Kumar Shrestha</h3>
+                <p>7th sem csit student who is passionate about developing mobile apps and cloud computing.</p>
+            </div>
+            <div class="developer">
+                <img src="/static/Sharada Luitel.jpg" alt="Developer 2 Image">
+                <h3>Sharada Luitel</h3>
+                <p>7th sem csit student sho is asp.net enthusiast and eager to learn rapidly changing technologies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer style="background-color: #f4f4f4; padding: 10px; display: flex; justify-content: center; align-items: center; font-size: 14px;">
+    <p>&copy; 20243 MRC. All rights reserved.</p>
+</footer>
+
+
+
+</body>
+</html>
